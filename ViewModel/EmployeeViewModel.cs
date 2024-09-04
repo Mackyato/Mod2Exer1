@@ -10,7 +10,8 @@ using System.Windows.Input;
 
 namespace Mod2Exer1.ViewModel
 {
-    public class EmployeeViewModel
+//I FORGOT TO ADD THE "INotifyPropertyChanged" kaya hindi gumagana yung button (I already fixed it sir thanks!!)
+    public class EmployeeViewModel : INotifyPropertyChanged
     {
         private Employee _employee;
 
